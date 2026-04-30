@@ -1,0 +1,21 @@
+﻿<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6F1E4"/>
+      <stop offset="100%" stop-color="#E8DDC5"/>
+    </linearGradient>
+    <linearGradient id="tin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D2C6AE"/>
+      <stop offset="100%" stop-color="#B7A888"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <ellipse cx="450" cy="705" rx="210" ry="84" fill="#111111" fill-opacity="0.14"/>
+  <rect x="285" y="180" width="330" height="520" rx="92" fill="url(#tin)"/>
+  <rect x="318" y="165" width="264" height="80" rx="40" fill="#E6D8BD"/>
+  <rect x="318" y="250" width="264" height="365" rx="34" fill="#FBF9F2"/>
+  <path d="M365 430C400 400 430 392 450 358C470 392 500 400 535 430C500 458 470 466 450 500C430 466 400 458 365 430Z" fill="#B4C2A5"/>
+  <path d="M365 430C400 438 430 446 450 500" stroke="#8B987C" stroke-width="8"/>
+  <path d="M535 430C500 438 470 446 450 500" stroke="#8B987C" stroke-width="8"/>
+  <text x="450" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#685E4C" letter-spacing="2">WHITE PEONY</text>
+</svg>

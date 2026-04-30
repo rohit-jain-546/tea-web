@@ -1,0 +1,20 @@
+﻿<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F0E3"/>
+      <stop offset="100%" stop-color="#E0D3BB"/>
+    </linearGradient>
+    <linearGradient id="tin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#57453B"/>
+      <stop offset="100%" stop-color="#2D2622"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <ellipse cx="450" cy="705" rx="210" ry="84" fill="#111111" fill-opacity="0.2"/>
+  <rect x="285" y="180" width="330" height="520" rx="92" fill="url(#tin)"/>
+  <rect x="318" y="165" width="264" height="80" rx="40" fill="#BFA07A"/>
+  <rect x="318" y="250" width="264" height="365" rx="34" fill="#F9F4E9"/>
+  <path d="M360 470C386 380 517 370 540 465" stroke="#4A3A31" stroke-width="18" stroke-linecap="round"/>
+  <path d="M385 505C412 435 487 428 513 502" stroke="#7A5A45" stroke-width="13" stroke-linecap="round"/>
+  <text x="450" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="29" fill="#2D2622" letter-spacing="2">SMOKED LAPSANG</text>
+</svg>
