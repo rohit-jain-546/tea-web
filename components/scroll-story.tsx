@@ -57,10 +57,10 @@ export function ScrollStory() {
         <div className="divider-line mb-8" />
       </div>
 
-      <div className="section-shell grid min-h-[210vh] gap-12 lg:grid-cols-[1.08fr_1fr]">
-        <div className="relative h-full">
-          <div className="sticky top-28 h-[68vh] rounded-[2.2rem] border border-line/75 bg-white/55 p-8">
-            <div className="absolute inset-0 rounded-[2.2rem] bg-gradient-to-b from-white/90 to-surface/70" />
+      <div className="section-shell grid min-h-[210vh] lg:grid-cols-[1.08fr_1fr] lg:gap-12">
+        <div className="col-start-1 row-start-1 w-full lg:relative lg:h-full">
+          <div className="sticky top-24 z-0 h-[45vh] w-full rounded-[2.2rem] border border-line/75 bg-white/55 p-8 lg:h-[68vh] lg:z-auto">
+            <div className="absolute inset-0 rounded-[2.2rem] bg-gradient-to-b from-white/90 to-[#fdfbf7]/70" />
 
             <motion.div
               style={{ opacity: leafOpacity, scale: leafScale, y: leafY }}
@@ -69,7 +69,7 @@ export function ScrollStory() {
               <img
                 src="/images/tea-leaves-realistic.png"
                 alt="Tea Leaves"
-                className="h-48 w-48 rounded-full object-cover shadow-[0_28px_42px_rgba(27,67,50,0.3)]"
+                className="h-32 w-32 lg:h-48 lg:w-48 rounded-full object-cover shadow-[0_28px_42px_rgba(27,67,50,0.3)]"
               />
             </motion.div>
 
@@ -80,7 +80,7 @@ export function ScrollStory() {
               <img
                 src="/images/brewing-realistic.png"
                 alt="Brewing Tea"
-                className="h-56 w-56 rounded-full object-cover shadow-[0_28px_42px_rgba(27,67,50,0.3)]"
+                className="h-40 w-40 lg:h-56 lg:w-56 rounded-full object-cover shadow-[0_28px_42px_rgba(27,67,50,0.3)]"
               />
             </motion.div>
 
@@ -91,17 +91,17 @@ export function ScrollStory() {
               <img
                 src="/images/teacup-realistic.png"
                 alt="Tea Cup"
-                className="h-52 w-52 rounded-full object-cover shadow-[0_28px_42px_rgba(27,67,50,0.3)]"
+                className="h-36 w-36 lg:h-52 lg:w-52 rounded-full object-cover shadow-[0_28px_42px_rgba(27,67,50,0.3)]"
               />
             </motion.div>
           </div>
         </div>
 
-        <div className="space-y-8 py-6 lg:pt-16">
+        <div className="col-start-1 row-start-1 mt-[50vh] space-y-8 py-6 relative z-10 lg:col-start-2 lg:mt-0 lg:pt-16">
           {phases.map((phase, index) => (
             <article
               key={phase.title}
-              className={`rounded-3xl border border-line/70 bg-white/65 p-8 transition-all duration-700 lg:min-h-[42vh] ${
+              className={`rounded-3xl border border-line/70 bg-white/90 p-8 shadow-xl backdrop-blur-md transition-all duration-700 lg:min-h-[42vh] lg:bg-white/65 lg:shadow-none lg:backdrop-blur-none ${
                 index === 1 ? "lg:translate-x-6" : ""
               }`}
             >

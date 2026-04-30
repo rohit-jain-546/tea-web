@@ -35,7 +35,7 @@ export function BrewingRitual() {
         <p className="mt-4 max-w-2xl text-muted">{active.description}</p>
 
         <div className="mt-10 grid items-center gap-8 lg:grid-cols-[1fr_1.2fr]">
-          <div className="flex gap-3">
+          <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
             {steps.map((step, index) => (
               <button
                 key={step.label}
